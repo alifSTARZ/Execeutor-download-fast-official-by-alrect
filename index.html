@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EXECUTOR Android LIST BY XF</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="animated-background">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <h1 class="welcome-title">
+        <i class="fas fa-robot"></i>
+        EXECUTOR ANDROID LIST BY XF
+        <i class="fas fa-android"></i>
+      </h1>
+      
+      <div class="logo-section">
+        <div class="alipxc-logo">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==" alt="alipXc Logo" class="logo-image">
+        </div>
+      </div>
+      
+      <div class="credit-section">
+        <p><i class="fas fa-code"></i> Created by: <strong>Xploit Force - alipXc HUB</strong> <i class="fas fa-heart"></i></p>
+      </div>
+
+      <div class="search-container">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" id="searchInput" placeholder="Search Executor..." class="search-input">
+        <button class="search-clear" onclick="clearSearch()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    
+    <div class="update-info">
+      <h2><i class="fas fa-pin"></i> LIST EXECUTOR TERBARU - UPDATE 2025.07.28</h2>
+      <div class="divider">═════════════════════════════════════</div>
+      <div class="info-grid">
+        <div class="info-item">
+          <i class="fas fa-tag"></i>
+          <span>🔰 Versi: v2.681+ - v2.683</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-server"></i>
+          <span>🛠️ Status: Online</span>
+        </div>
+      </div>
+      <p class="online-text"><strong>✅ Executor Online:</strong></p>
+    </div>
+
+    <div class="stats-container">
+      <div class="stat-card">
+        <i class="fas fa-check-circle"></i>
+        <span class="stat-number" id="onlineCount">12</span>
+        <span class="stat-label">Online</span>
+      </div>
+      <div class="stat-card">
+        <i class="fas fa-times-circle"></i>
+        <span class="stat-number" id="offlineCount">4</span>
+        <span class="stat-label">Offline</span>
+      </div>
+      <div class="stat-card">
+        <i class="fas fa-download"></i>
+        <span class="stat-number">16</span>
+        <span class="stat-label">Total</span>
+      </div>
+    </div>
+
+    <div class="executor-list" id="executorList">
+      <div class="executor-item" data-name="arceus x neo">
+        <div class="executor-header">
+          <h3><i class="fas fa-bolt"></i> 1. Arceus X Neo v2.683</h3>
+          <div class="executor-badge premium">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-info-circle"></i> Advanced Roblox Executor with premium features</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://android.spdmteam.com/')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="arceus x neo premium">
+        <div class="executor-header">
+          <h3><i class="fas fa-crown"></i> 2. Arceus X Neo PREMIUM v5 (v2.681)</h3>
+          <div class="executor-badge premium">PREMIUM</div>
+        </div>
+        <div class="status premium">
+          <i class="fas fa-gem"></i>
+          💰 Status: BERBAYAR!
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-star"></i> Premium version with exclusive features</p>
+        </div>
+        <button class="download-btn premium" onclick="downloadExecutor('https://spdmteam.com/api/create-checkout-session?referral=RSD')">
+          <i class="fas fa-shopping-cart"></i> Buy Premium
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="krnl">
+        <div class="executor-header">
+          <h3><i class="fas fa-terminal"></i> 3. KRNL v2.683</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-code"></i> Powerful and reliable Roblox executor</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://wrdcdn.net/r/54921/1753730859603/krnl_release_2.683.775_2025.7.28_38.apk')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="codex">
+        <div class="executor-header">
+          <h3><i class="fas fa-file-code"></i> 4. Codex v2.683</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-laptop-code"></i> Advanced scripting capabilities</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://www.mediafire.com/file/pw0bdp3seftd5d3/Codex+V2.683.apk/file')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="cryptic">
+        <div class="executor-header">
+          <h3><i class="fas fa-lock"></i> 5. Cryptic v2.683</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-shield-alt"></i> Secure and encrypted executor</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://www.mediafire.com/file/w4f7a2ezsa0sio3/Cryptic+2.683.775+APK.apk/file')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="delta">
+        <div class="executor-header">
+          <h3><i class="fas fa-triangle"></i> 6. Delta v2.683</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-rocket"></i> Fast and lightweight executor</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://delta.webfiles.pro/file/Delta-2.683.775-01.apk')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="fluxus zubxero">
+        <div class="executor-header">
+          <h3><i class="fas fa-wave-square"></i> 7. Fluxus [ZubXero] v2.679</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-magic"></i> Special ZubXero edition</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://webfiles.pro/file/Fluxus.apk')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="ronix">
+        <div class="executor-header">
+          <h3><i class="fas fa-cog"></i> 8. Ronix v2.683</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-tools"></i> Feature-rich executor</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://wrdcdn.net/r/154522/1753248043148/roni64.apk')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="evon">
+        <div class="executor-header">
+          <h3><i class="fas fa-fire"></i> 9. Evon v2.681</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-bolt"></i> High-performance executor</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://evon.cc/android/dl-a/Evon.apk')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="trigon">
+        <div class="executor-header">
+          <h3><i class="fas fa-play"></i> 10. Trigon v2.683</h3>
+          <div class="executor-badge special">NO KEY</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON | 🔓 No Key!
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-unlock"></i> No key required!</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://trigonevo.com/download?os=android&fs=mediafire')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="vega x">
+        <div class="executor-header">
+          <h3><i class="fas fa-star"></i> 11. Vega X v2.683</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-certificate"></i> Reliable and stable</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://github.com/1f0yt/community/releases/download/Vegax/Vega.X.apk')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+
+      <div class="executor-item" data-name="frostware">
+        <div class="executor-header">
+          <h3><i class="fas fa-snowflake"></i> 12. Frostware v2.682</h3>
+          <div class="executor-badge free">FREE</div>
+        </div>
+        <div class="status active">
+          <i class="fas fa-signal"></i>
+          📶 Status: ✅ ON
+        </div>
+        <div class="executor-details">
+          <p><i class="fas fa-ice-cream"></i> Latest generation executor with advanced features</p>
+        </div>
+        <button class="download-btn" onclick="downloadExecutor('https://www.mediafire.com/file/mvf7nt4wjuxzpbx/Frostware-GenX+V3.5(fixed).apk/file?hash=K55p1BVkmmR0tQSPLpFrqTJb8O7LX8GpwP2iNymwbRiaAqBQtdbQvDdL22Q770ux')">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+    </div>
+
+    <div class="offline-section">
+      <h3><i class="fas fa-exclamation-triangle"></i> ❌ Executor OFFLINE / DOWN:</h3>
+      <ul>
+        <li><i class="fas fa-times"></i> Rift (TDK di isi soal belum di kasih anti banned!!)</li>
+        <li><i class="fas fa-clock"></i> Illusion (*proses update*)</li>
+        <li><i class="fas fa-times"></i> H202</li>
+        <li><i class="fas fa-times"></i> Vornex</li>
+        <li><i class="fas fa-ellipsis-h"></i> DLL lainnya…</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <div class="footer-content">
+        <p><i class="fas fa-copyright"></i> 2025 Xploit Force - alipXc HUB | Made with <i class="fas fa-heart text-red"></i> for Roblox Community</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
